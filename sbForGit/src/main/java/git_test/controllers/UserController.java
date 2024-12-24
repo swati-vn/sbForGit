@@ -12,5 +12,10 @@ public class UserController {
 	public String greet() {
 		return "Welcome to Git!!";
 	}
+	
+	@GetMapping("/record")
+	public String getOneRecord() {
+		return "record";
+	}
 
 }
